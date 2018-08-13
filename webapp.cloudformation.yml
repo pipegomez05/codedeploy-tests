@@ -2,7 +2,7 @@
 Parameters:
   KeyName:
     Type: String
-    Default: pipeg
+    Default: customamicreation
   WebappSubnets:
     Type: CommaDelimitedList
     Default: subnet-35f2634f, subnet-bfe6bed7, subnet-cd1be281
@@ -20,7 +20,7 @@ Parameters:
     Default: vpc-32b1815a
   AMIID:
     Type: String
-    Default: ami-0e65e665ff5f3fc5f
+    Default: ami-07461435f4b9f3bc8
 Resources:
   WebappApplication:
     Type: "AWS::CodeDeploy::Application"
